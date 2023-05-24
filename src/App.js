@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
 import logo from './logo.svg';
 import './App.css';
 import "@aws-amplify/ui-react/styles.css";
@@ -46,6 +46,7 @@ const App = ({ signOut }) => {
     async function createNote(event) {
       event.preventDefault();
       const form = new FormData(event.target);
+      const image = form.get("image");
       const data = {
         name: form.get("name"),
         description: form.get("description"),
@@ -125,7 +126,7 @@ const App = ({ signOut }) => {
                 />
               )}
               <Button variation="link" onClick={() => deleteNote(note)}>
-                DeleteNote
+                Delete Note
               </Button>
             </Flex>
           ))}
