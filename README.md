@@ -1,3 +1,14 @@
+# My Amplify Notes App
+
+https://main.d3plin0i9y566r.amplifyapp.com
+
+Hi, This is a basic amplify notes app with an authentication system backend and React frontend. Still in development, I am currently working on making it so the authenticated user can only see their own notes.
+Skills I learned with this project:
+- CI/CD
+- React
+- Several AWS services
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
