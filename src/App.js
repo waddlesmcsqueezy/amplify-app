@@ -75,7 +75,7 @@ const App = ({ signOut }) => {
     }
     return (
       <View className="App">
-        <Heading level={1}>Separator's Notes App</Heading>
+        <Heading level={1}>Ian's Notes App</Heading>
         <View as="form" margin="3rem 0" onSubmit={createNote}>
           <Flex direction="row" justifyContent="center">
             <TextField
