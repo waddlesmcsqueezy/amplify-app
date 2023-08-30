@@ -1,6 +1,6 @@
 # My Amplify Notes App
 
-https://main.d3plin0i9y566r.amplifyapp.com
+## [Click Here to go to the App](https://main.d3plin0i9y566r.amplifyapp.com)
 
 Hi, This is a basic amplify notes app with an authentication system backend and React frontend. Still in development, I am currently working on making it so the authenticated user can only see their own notes.
 Skills I learned with this project:
